@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.header {
+  background: hsl(228, 4%, 50%);
+  color: hsl(240, 4%, 9%);
+  padding: 0.2rem;
+  text-decoration: none;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.nav-li {
+  color: inherit;
+  text-decoration: none;
+  color: black;
+  gap: 1.5rem;
+}
+
+.nav-ul {
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    padding: 1rem;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.search-input {
+  padding: 0.2rem;
+}
+
+.s-input {
+  padding: 0.2rem;
+}
+
+.material-symbols-outlined {
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.glide-slideimg {
+  width: 300px;
+  height: 350px;
+  
+}
+
+.glide__slide {
+  list-style: none;
+}
+
+
+.section2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.img-section2{
+  width: 550px;
+  height: 150px;
+}
+
+.p-section2 {
+  margin-left: 5.5rem;
+}
+
+.button-section2 {
+  margin-left: 4rem;
+  padding: 0.5rem;
+  background-color: blue;
+  color: white;
+  
+}
+
+.section3-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.h3-section3 {
+  margin-left: 28rem;
+}
+
+.img-section3 {
+  width: 700px;
+  height: 200px;
+}
+
+.p-section3 {
+  margin-left: 8rem;
+}
+
+.h5-section3 {
+  margin-left: 5rem;
+}
+
+.button-section3 {
+  margin-left: 32rem;
+  padding: 0.5rem;
+  background-color: blue;
+  color: white;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+button {
+
+  background-color: #fff;
+  color: inherit;
+  box-shadow: none;
+}
+
+li {
+  color: inherit;
+}
+
+.main-content {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.header2 {
+  display: grid;
+  grid-auto-flow: column;
+  list-style: none;
+  padding: 0.5rem;
+  justify-content: center;
+  gap: 2rem;
+  margin-right: 1em;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header2-list {
+  display: grid;
+  grid-auto-flow: column;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+
+
+.row {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+footer {
+  background: hsl(240, 9%, 98%);
+  color: hsl(0, 4%, 5%);
+  text-align: center;
+  padding: 1em 0;
+}
+
+.footer1-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: white;
+}
+
+.footer1-img {
+  width: 70px;
+  height: 70px;
+}
+
+.footer2-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+}
+
+.footer1-li {
+    color: inherit;
+    text-decoration: none;
+    color: inherit; 
+    list-style: none;
+}
+
+.footer2-li {
+    color: inherit;
+    text-decoration: none;
+    color: inherit; 
+    list-style: none;
+}
+
+.footer3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(14, 14, 73);
+  color: white;
+}
+
+.footer2-text {
+    background-color: blue;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+
+
+
+
+
+
+/* Stilizime për karusel */
+.glide__slides {
+  display: flex;
+}
+
+.glide__slide {
+  flex: 1 0 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .mobile-menu {
+    display: block;
+  }
+
+  .nav-ul {
+    display: none;
+    padding: 10px;
+  }
+
+  .nav-li {
+    margin: 5px 0;
+  }
+}
